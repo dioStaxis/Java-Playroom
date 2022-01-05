@@ -71,7 +71,7 @@ public class functions {
     }
     //------------------------------------------------------------------------------------------------------------------
     public void execute(data d, Scanner scanner){
-        print("Game Start!");
+        print("Hangman Start!");
         //Print state of the gallows
         System.out.println(states.getGallows(d.getTally()));
         //While run is true, execute game

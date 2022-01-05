@@ -1,4 +1,4 @@
-package tictactoe;
+package TicTacToe;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ public class functions {
     int player2 = 2;
 
     public void executeGame(int[][] array, Scanner scanner){
-        println("Game start!");
+        println("Tic-tac-toe start!");
         while(playerTurn(scanner, player1, array) && playerTurn(scanner,player2, array));
     }
 
